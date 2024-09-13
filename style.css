@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(135deg, #ffff00, #09ff00);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #5d5d5d;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+#inputString {
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 1.2rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn{
+    background-color: #ffff00;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #09ff00;
+    cursor: pointer;
+    color: azure;
+}
+
+.btn:focus{
+    background-color: #c3ff00;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: #000000;
+    font-weight: 700;
+}
